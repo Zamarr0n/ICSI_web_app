@@ -72,3 +72,4 @@ whitenoise==6.9.0
 wsproto==1.2.0
 yarl==1.18.3
 Pillow==11.2.1
+django-autoslug==1.9.9
