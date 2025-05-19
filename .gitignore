@@ -1,0 +1,24 @@
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Django
+*.sqlite3
+__pycache__/
+*.pyc
+/media/
+/staticfiles/
+
+# Archivos de entorno
+.env
+*.env
+/secrets.py
+
+# IDE
+.idea/
+.vscode/
+
+# Logs y caché
+*.log
+*.cache

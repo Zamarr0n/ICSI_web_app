@@ -1,0 +1,33 @@
+{% extends "HOME/layout.html"%}
+
+{% block body %}
+{%load static%}
+
+<section class="space_section">
+
+    <h1 class="text-center"> {{blog.title}} </h1>
+    <hr>
+    <div class="center-image space_section">
+        <div>
+            <img src="{{blog.photo.url}} " alt="{{blog.title}}" width="450px" height="300px">
+        </div>
+    </div>
+    
+    <div class="div-date">
+        <div class="date-small">
+            
+            <small> {{blog.date}} </small>
+            
+        </div>
+    </div>
+
+    <div class="text-div space_section">
+        <div >
+        <p> {{blog.text}} </p>
+        </div>
+    </div>
+    
+</section>
+
+
+{%endblock%}

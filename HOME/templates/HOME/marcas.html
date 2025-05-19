@@ -1,0 +1,567 @@
+{% extends "HOME/layout.html"%}
+{% load static %}
+{% block body %}
+
+
+<!-- mapa with brands  -->
+<section class="brand-carousel">
+  <!-- width="1430px" -->
+   
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      
+      <div class="carousel-item active" data-bs-interval="1500">
+        <img src="../static/img//Carousel-img/1.png"  height="250px" class=" w-100" alt="1st photo">
+      </div>
+      
+      <div class="carousel-item" data-bs-interval="1500">
+        <img src="../static/img//Carousel-img/2.png" height="250px" class=" w-100" alt="2nd photo">
+      </div>
+      
+      <div class="carousel-item" data-bs-interval="1500">
+        <img src="../static/img//Carousel-img/3.png" height="250px" class=" w-100" alt=" 3rd photo">
+      </div>
+
+      <div class="carousel-item" data-bs-interval="1500">
+        <img src="../static/img//Carousel-img/4.png" height="250px" class=" w-100" alt=" 3rd photo">
+      </div>
+
+      <div class="carousel-item" data-bs-interval="1500">
+        <img src="../static/img//Carousel-img/5.png" height="250px" class=" w-100" alt=" 3rd photo">
+      </div>
+
+      <div class="carousel-item" data-bs-interval="1500">
+        <img src="../static/img//Carousel-img/6.png" height="250px" class=" w-100" alt=" 3rd photo">
+      </div>
+
+      <div class="carousel-item" data-bs-interval="1500">
+        <img src="../static/img//Carousel-img/7.png" height="250px" class="w-100" alt=" 3rd photo">
+      </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  
+
+</section>
+
+<!-- Info about brands -->
+<section class="space_section">
+  <div class="center-paragraph">
+  <div class=" container">
+  <div class="row">
+    <div class="col-lg-6 col-md-12 col-sm-12  icon__mision_vision_Valores">
+      <img src="{%static 'img/body-img/wago-59.jpg'%}" class="img-marcas" alt="wago-image">
+  </div>
+    <div class="col-lg-6 col-md-12 col-sm-12">
+  <h1 class="text-center">Nuestro objetivo es claro:</h1>
+  <h5 class="text-center"><strong> Ser aliados estratégicos en el desarrollo de tu industria. </strong></h5>
+  <p class="justify-text">
+    Desde 2007, nos especializamos en soluciones integrales para resistencias eléctricas, 
+    instrumentación y automatización industrial. <strong> Nuestro compromiso con usted: generar valor estratégico tanto para usuarios finales como para 
+    integradores de servicios. </strong>
+<br><br>
+Trabajamos en alianza con los líderes mundiales del sector, garantizando una amplia gama de productos premium, herramientas de vanguardia y 
+asesoría técnica especializada - todo bajo los más altos estándares internacionales de calidad para impulsar su competitividad industrial.
+<br><br>
+En ICSI ofrecemos soluciones completas en instrumentación, control 
+y automatización industrial, adaptadas a las necesidades de cada proyecto.
+Ponemos a tu alcance equipos de alta tecnología, asesoría técnica 
+especializada y soporte confiable para optimizar tus procesos y garantizar 
+una operación eficiente, segura y sustentable.
+  </p>
+
+</div>
+</div>
+</div>
+</div>
+
+</section>
+<section class="space_section">
+  <h2 class="text-center">¿Dónde Tienen presencia nuestras marcas?</h2>
+  <div class="icon__mision_vision_Valores">
+  <img src="{%static 'img/body-img/Map-mex.png'%}"  alt="Mapa-Mexico" class="logo-size-nos">
+</div>
+</section>
+<!-- section with images of the brands -->
+<section class="space_section" id="marcas_section">
+    <h2 class="text-center">Conoce Nuestro Catálogo de Marcas:</h2>
+    <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-12 col-sm-12">
+        <div class="div-brands">
+          <img src="{%static 'img/marcas/danfoss.png'%}" loading="lazy" class="img-styling-brands" width="200px" height="150px" alt="Danfoss-logo">
+        </div>
+        <div>
+            <!-- Button trigger modal -->
+        <div class="btn_marcas">
+          <div>
+            <button type="button" class="button button--dione" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <span>Conoce sobre Danfoss</span>
+      </button>
+    </div>
+    </div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Danfoss</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="div-brands">
+          <img src="{%static 'img/marcas/danfoss.png'%}" loading="lazy" class="img-styling-brands" width="200px" height="150px" alt="Danfoss-logo">
+        </div>
+          <h2 class="text-center">
+            Control
+            inteligente,
+            impacto real
+          </h2>
+          <p class="justify-text">
+          <strong>Ingeniería en
+            movimiento para un
+            futuro más eficiente
+          </strong>
+          Danfoss es líder global en el desarrollo de
+soluciones eficientes para la automatización,
+control y optimización de sistemas
+industriales. Dentro de su portafolio de
+productos, manejamos variadores de
+frecuencia los cuales fueron diseñados para
+mejorar el rendimiento energético y la
+confiabilidad operativa. Con un enfoque en
+la sostenibilidad, la innovación y la ingeniería
+de precisión, Danfoss impulsa industrias más
+inteligentes, seguras y responsables.
+Sus productos se integran fácilmente
+en una amplia variedad de
+aplicaciones, desde HVAC y
+refrigeración hasta procesos
+industriales complejos.
+          </p>
+          </div>
+        <div class="modal-footer">
+          <button type="button" class="button-dark button--dione-dark" data-bs-dismiss="modal">
+          <span>
+            Salir
+          </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-12 col-sm-12">
+        <div class="div-brands">
+          <img src="{% static 'img/marcas/foxboro.png'%}" loading="lazy" class="img-styling-brands"  width="200px" height="150px" alt="foxboro-logo">
+        </div>
+        <!-- Button trigger modal -->
+      <div class="btn_marcas">
+        <div>
+          <button type="button" class="button button--dione" data-bs-toggle="modal" data-bs-target="#foxboro">
+            <span>Conoce sobre Foxboro</span>
+          </button>
+         </div>
+        </div>
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="foxboro" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Foxboro</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="div-brands">
+            <img src="{% static 'img/marcas/foxboro.png'%}" loading="lazy" class="img-styling-brands"  width="200px" height="150px" alt="foxboro-logo">
+          </div>
+          <h2 class="text-center">
+            Precisión
+            inteligente para
+            cada industria.
+          </h2>
+          <p class="justify-text">
+            Foxboro, una marca de Schneider
+            Electric, es sinónimo de precisión,
+            confiabilidad e innovación en la
+            industria del control de procesos.
+            Reconocida a nivel mundial por sus
+            instrumentos de medición de alta
+            exactitud, Foxboro ofrece soluciones
+            robustas en transmisores de presión,
+            caudalímetros, analizadores y controladores
+            que garantizan una operación eficiente,
+            segura y continua en entornos industriales
+            exigentes. Su enfoque en la calidad,
+            combinado con tecnologías avanzadas de
+            diagnóstico y comunicación, permite
+            optimizar procesos críticos y reducir tiempos
+            de inactividad. Con décadas de experiencia y
+            una profunda comprensión de las
+            necesidades del sector, Foxboro se posiciona
+            como un aliado estratégico para alcanzar
+            niveles superiores de productividad y
+            control.
+          </p>
+          </div>
+        <div class="modal-footer">
+          <button type="button" class="button-dark button--dione-dark" data-bs-dismiss="modal">
+            <span>
+            Salir
+          </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+      </div>
+      <div class="col-lg-4 col-md-12 col-sm-12">
+        <div class="div-brands">
+          <img src="{% static 'img/marcas/Vega.png'%}" loading="lazy" class="img-styling-brands"  width="200px" height="150px">
+        </div>
+        <!-- Button trigger modal -->
+        <div class="btn_marcas ">
+          <div>
+            <button type="button" class="button button--dione" data-bs-toggle="modal" data-bs-target="#Vega">
+              <span>Conoce sobre Vega</span>
+            </button>
+          </div>
+        </div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="Vega" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Vega</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="div-brands">
+            <img src="{% static 'img/marcas/Vega.png'%}" loading="lazy" class="img-styling-brands"  width="200px" height="150px">
+          </div>
+          <h2 class="text-center">
+            líderes en la fabricación de sensores de nivel, presión y detección de límite para la automatización de procesos industriales
+          </h2>
+          <p class="justify-text">
+            VEGA es una empresa líder en la fabricación de sensores de nivel, presión y detección de límite para la automatización de procesos industriales. 
+            Con más de 60 años de experiencia, ofrece soluciones innovadoras y 
+            de alta precisión para sectores como petróleo y gas, química, agua y alimentos. Sus tecnologías avanzadas, 
+            incluyendo radar y ultrasonido, garantizan mediciones confiables y seguras, 
+            optimizando la eficiencia y sostenibilidad en entornos industriales a nivel global.
+          </p>
+          </div>
+        <div class="modal-footer">
+          <button type="button" class="button-dark button--dione-dark" data-bs-dismiss="modal">
+            <span>
+            Salir
+          </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+      </div>
+      </div>
+
+      <div class="row">
+      <div class="col-lg-4 col-md-12 col-sm-12">
+        <div class="div-brands">
+          <img src="{% static 'img/marcas/wago.png'%}" loading="lazy"  class="img-styling-brands"  width="200px" height="150px">
+        </div>
+        <!-- Button trigger modal -->
+        <div class="btn_marcas">
+          <div>
+            <button type="button" class="button button--dione" data-bs-toggle="modal" data-bs-target="#Wago">
+              <span>Conoce sobre Wago</span>
+            </button>
+          </div>
+        </div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="Wago" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Wago</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="div-brands">
+            <img src="{% static 'img/marcas/wago.png'%}" loading="lazy"  class="img-styling-brands"  width="200px" height="150px">
+          </div>
+          <h2 class="text-center">
+            Conexión
+            sin límites
+          </h2>
+          <strong class="text-center">
+            WAGO es líder mundial
+            en tecnología de
+          conexión eléctrica
+          </strong>
+          <p class="justify-text">
+            Respaldado por numerosas patentes activas
+y reconocido por haber desarrollado la clema
+tipo resorte original: CAGE CLAMP®. Su
+innovación revolucionó la forma de realizar
+conexiones seguras, rápidas y sin
+mantenimiento, estableciendo un nuevo
+estándar en la industria eléctrica y de
+automatización.
+WAGO ofrece una amplia gama de
+soluciones que van desde sistemas de
+conexión eléctrica y bloques de terminales,
+hasta componentes para
+automatización industrial y tecnología
+de interfaz. Cada producto está
+diseñado para ofrecer máxima
+fiabilidad, facilidad de instalación y
+compatibilidad con múltiples
+aplicaciones, desde tableros eléctricos
+hasta sistemas de control complejos.
+</p>
+          </div>
+        <div class="modal-footer">
+          <button type="button" class="button-dark button--dione-dark" data-bs-dismiss="modal">
+            <span>
+            Salir
+          </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+      </div>
+      <div class="col-lg-4 col-md-12 col-sm-12">
+        <div class="div-brands">
+          <img src="{% static 'img/marcas/lovato_logo.png'%}" loading="lazy" class="img-styling-brands resize_logo"  width="250px" height="100px">
+        </div>
+
+        <!-- Button trigger modal -->
+        <div class="btn_marcas">
+          <div>
+            <button type="button" class="button button--dione" data-bs-toggle="modal" data-bs-target="#Lovato">
+              <span>Conoce sobre Lovato</span>
+            </button>
+          </div>
+        </div>
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="Lovato" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel"> LOVATO Electric </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="div-brands">
+            <img src="{% static 'img/marcas/lovato_logo.png'%}" loading="lazy" class="img-styling-brands resize_logo"  width="250px" height="100px">
+          </div>  
+          <h2 class="text-center">
+          Soluciones
+          eléctricas con
+          visión industrial
+          </h2>
+          <strong class="text-center">
+          Empresa italiana con
+          más de 100 años de
+          experiencia
+          </strong>
+          <p class="justify-text">
+            en la fabricación de componentes eléctricos
+            para automatización y gestión energética.
+            Reconocida por su calidad y compromiso
+            con la innovación, ofrece un portafolio
+            robusto que incluye contactores,
+            relevadores, interruptores, botoneras,
+            variadores de frecuencia, sistemas de
+            monitoreo y control de energía. Su enfoque
+            en la eficiencia, seguridad y facilidad de
+            instalación convierte a Lovato en un
+            referente confiable en sectores como la
+            industria, la construcción, la energía y las
+            infraestructuras. Con presencia global
+y una visión orientada al futuro, Lovato
+Electric combina tradición y tecnología
+para ofrecer soluciones que responden
+a las necesidades de una industria en
+constante evolución.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="button-dark button--dione-dark" data-bs-dismiss="modal">
+            <span>
+            Salir
+          </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+      </div>
+      <!-- Arca Valves -->
+      <div class="col-lg-4 col-md-12 col-sm-12">
+        <div class="div-brands">
+          <img src="{% static 'img/marcas/Arca-logo.png'%}" loading="lazy" class="img-styling-brands" width="200px" height="150px">
+        </div>
+        <!-- Button trigger modal -->
+        <div class="btn_marcas">
+          <div>
+            <button type="button" class="button button--dione" data-bs-toggle="modal" data-bs-target="#Arca">
+              <span>Conoce sobre Arca </span>
+            </button>
+          </div>
+        </div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="Arca" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel"> Arca Valves</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="div-brands">
+            <img src="{% static 'img/marcas/Arca-logo.png'%}" loading="lazy" class="img-styling-brands" width="200px" height="150px">
+          </div>
+          <h2 class="text-center">
+            Precisión
+            alemana en
+            cada válvula.
+          </h2>
+          <p class="justify-text"> 
+            ARCA Valves es reconocida
+internacionalmente por su excelencia en el
+diseño y fabricación de válvulas de control
+de alta precisión para aplicaciones
+industriales complejas. Su ingeniería
+alemana, combinada con décadas de
+experiencia, garantiza soluciones confiables
+para sectores como la energía, el petróleo y
+gas, la química y la industria alimentaria.
+Gracias a su enfoque en la innovación,
+durabilidad y precisión, ARCA ofrece
+productos capaces de operar bajo
+condiciones extremas, optimizando
+procesos y asegurando un control eficiente y
+seguro.   
+        </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="button-dark button--dione-dark" data-bs-dismiss="modal">
+            <span>
+            Salir
+          </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+      </div>  
+    </div>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <div class="div-brands">
+          <div>
+            <div>
+              <img src="{% static 'img/marcas/Fibox_logo.png'%}" width="250px" loading="lazy" height="100px" class="firebox_logo resize_logo">
+            </div>
+          </div>
+        </div>
+        <!-- Button trigger modal -->
+        <div class="btn_marcas">
+          <div>
+            <button type="button" class="button button--dione" data-bs-toggle="modal" data-bs-target="#Fibox">
+              <span>Conoce mas sobre Fibox</span>
+            </button>
+          </div>
+        </div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="Fibox" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Fibox</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="div-brands">
+            <div>
+              <div>
+                <img src="{% static 'img/marcas/Fibox_logo.png'%}" width="250px" loading="lazy" height="100px" class="firebox_logo resize_logo">
+              </div>
+            </div>
+          </div>
+          <h2 class="text-center">
+            Tu sistema seguro,
+            en cualquier
+            ambiente.
+          </h2>
+          <strong class="text-center">
+            Donde la resistencia
+se encuentra con el
+diseño
+          </strong>
+          <p class="justify-text">
+Fibox es especialista en la fabricación
+de cajas y gabinetes industriales para
+ambientes exigentes, ofreciendo
+soluciones robustas y versátiles en
+policarbonato, y plástico.
+
+Reconocida por su innovación en protección
+de sistemas eléctricos y electrónicos, Fibox
+diseña envolventes que resisten condiciones
+extremas como humedad, polvo, químicos y
+temperaturas variables, cumpliendo con las
+normativas más estrictas a nivel
+internacional. Su amplia gama de modelos y
+accesorios facilita la integración en múltiples
+sectores: desde automatización y energía
+hasta telecomunicaciones y control de
+procesos. Fibox es sinónimo de protección
+confiable, instalación flexible y diseño
+inteligente.
+</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="button-dark button--dione-dark" data-bs-dismiss="modal">
+          <span>  
+            Close
+          </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+      </div>
+    </div>
+    </div>
+</section>
+
+{%endblock%}
