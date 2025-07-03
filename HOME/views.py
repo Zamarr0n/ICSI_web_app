@@ -36,10 +36,10 @@ def servicios(request):
         } )
         
         email = EmailMessage(
-            subject=subject,
-            body=template,
-            from_email= settings.EMAIL_HOST_USER,
-            to=['icsiwebapp@gmail.com','atencion@icsalan.com', 'cestzamarron@gmail.com']
+            subject = subject,
+            body = template,
+            from_email = settings.EMAIL_HOST_USER,
+            to = ['icsiwebapp@gmail.com','gerencia@icsalan.com', 'cestzamarron@gmail.com']
         )
         email.fail_silently = False
         print("Apunto de enviarse")
